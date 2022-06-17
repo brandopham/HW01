@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: black;
 }
 .banner{
     width: 100%;
@@ -23,7 +24,7 @@
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width: 500px;
     cursor: pointer;
 }
 .navbar ul li{
@@ -34,7 +35,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -56,7 +57,7 @@
     top: 50%;
     transfrom: translateY(-50%);
     test-algin:center;
-    color: black;
+    color: white;
 }
 .content h1{
     font-size: 70px;
@@ -76,7 +77,7 @@ button{
     font-weight:bold;
     border: 2px solid #009688;
     background: transparent;
-    color: black;
+    color: white;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -115,4 +116,8 @@ button:hover{
     height: 200px;
     background-image:url(img/eagle.jpg);
     background-size: 100%;
+}
+.container{
+    position: center;
+    border: white;
 }
